@@ -4,7 +4,7 @@ body{
 }
 
 
-.header{
+.header,.footer{
     background-color: #1f2937;
     padding-left: 300px;
     padding-right: 300px;
@@ -90,21 +90,77 @@ img{
 
 
 .card {
-    width: 150px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
 }
 
 .card-box {
-    width: 150px;
-    height: 160px;
+    width: 250px;
+    height: 300px;
     border: 5px solid #3882F6;
     border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .card-box img{
-    width: 150px;
-    height: 160px;
+    width: 250px;
+    height: 300px;
+    
 }
 .card-text {
     color: #1F2937;
+}
+.quote-section{
+    background-color: #e5e7eb;
+}
+.quote-section p{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    text-align: center;
+    padding: 150px;
+    padding-bottom: 0px;
+    font-style: italic;
+}
+
+
+.quote-auther{
+    margin-left: 1100px;
+    font-size: 23px;
+}
+
+.signup-box{
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 18px;
+    gap: 200px;
+}
+
+.signup-box button{
+    border: solid white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.signup-text{
+    margin-left: 500px; 
+    
+}
+.good{
+    font-weight: 900;
+}
+
+.footer{
+    padding: 30px;
+}
+
+.footer-text{
+    display: flex;
+    color:#e5e7eb;
+    justify-content: center;
+    align-items: center;
+
 }
